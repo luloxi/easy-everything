@@ -42,7 +42,7 @@ It may look like this:
 3. Create a new repository on github and run the command `git remote add origin (YOUR_REPO_URL)`
 
 4. Change the branch to main with `git branch -M main`
-   (git uses "master" as default, mmm, BDSM ;)
+   (git uses "master" as default, mmm yeah Mommy ;) )
 
 5. Stage and commit the files for your first commit with `git add .` then `git commit -m "First commit"`
 
