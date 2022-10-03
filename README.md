@@ -17,7 +17,9 @@
 6. Create folders:
 
 - `contracts` for storing `.sol` files.
-- `scripts` to store scripts that interact with deployed contracts
+- `scripts` to store scripts
+- `deploy` to store deploy scripts
+- `test` to store test scripts
 
 ## Interfaces
 
@@ -55,3 +57,15 @@ It may look like this:
 - Install Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 ## Windows only
+
+## Install WSL (Windows Subsystem for Linux)
+
+1. Type `powershell` on Start Menu, Right-click then "execute as Administrator", then run `wsl --install`.
+2. Restart computer after installation completes.
+3. Set user and password for your Ubuntu installation after you restart. If it doesn't prompt automatically after restart, type `ubuntu` on Start Menu and run it.
+4. Open VS Code and install the extension **Remote Development**
+
+## Use WSL on Windows
+
+- On VS Code, press **Ctrl + Shift + P**, type `wsl` then click **Remote-WSL: New WSL Window** to open a Linux terminal.
+- Type `ubuntu` on Start Menu, run it, then type `mkdir FOLDER_NAME` to create a new folder, `cd FOLDER_NAME` to move into that folder, and `code .` to run VS Code from that folder.
