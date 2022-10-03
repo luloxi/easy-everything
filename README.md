@@ -47,3 +47,11 @@ It may look like this:
 5. Stage and commit the files for your first commit with `git add .` then `git commit -m "First commit"`
 
 6. Push them to GitHub with `git push -u origin main`
+
+# Setting the environment
+
+- Install Visual Studio Code: https://code.visualstudio.com/
+- Install Node Js: https://nodejs.org/en/download/
+- Install Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+## Windows only
