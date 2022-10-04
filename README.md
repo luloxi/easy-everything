@@ -1,5 +1,7 @@
 # How to start a new project on hardhat
 
+0. (optional) To add info about the project, run `yarn init` first  
+
 1. Create folder and install Hardhat running:
    `yarn add --dev hardhat`
 
