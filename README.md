@@ -50,7 +50,7 @@ It may look like this:
 
 6. Push them to GitHub with `git push -u origin main`
 
-# Setting the environment
+# Setting up the environment
 
 - Install Visual Studio Code: https://code.visualstudio.com/
 - Install Node Js: https://nodejs.org/en/download/
@@ -66,7 +66,7 @@ It may look like this:
 
 ### Install WSL (Windows Subsystem for Linux)
 
-1. Type `powershell` on Start Menu, right-click, "execute as Administrator", then run `wsl --install`.
+1. Type `powershell` on Start Menu, right-click, "Run as Administrator", then run `wsl --install`.
 2. Restart computer after installation completes.
 3. Set user and password for your Ubuntu installation after you restart. If it doesn't prompt automatically after restart, type `ubuntu` on Start Menu and run it.
 4. Open VS Code and install the extension **Remote Development**
@@ -82,6 +82,10 @@ It may look like this:
 2. Trash the terminal, then open a new one, and run `nvm --version` to see if Node Version Manager actually installed.
 3. Run `nvm install 16.14.2` to install Node Js.
 4. Run `node --version` to see if Node Js installed.
+
+## Enable Yarn (Node Js required)
+
+Run `corepack enable`. If it's not available, run `npm i -g corepack` first.
 
 ### Install Git on WSL
 
