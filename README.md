@@ -56,6 +56,12 @@ It may look like this:
 - Install Node Js: https://nodejs.org/en/download/
 - Install Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
+## Auto formatting (JavaScript and Solidity)
+
+1. On VS Code, install the extensions **Solidity + Hardhat** and **Prettier**
+2. **Ctrl + Shift + P**, then `Preferences: Open User Settings (JSON)`
+3. Add the lines: `"editor.formatOnSave": true, "[solidity]": { "editor.defaultFormatter": "NomicFoundation.hardhat-solidity" }, "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },`
+
 ## Windows only
 
 ### Install WSL (Windows Subsystem for Linux)
