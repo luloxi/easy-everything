@@ -54,8 +54,26 @@ It may look like this:
 # Setting up the environment
 
 - Install Visual Studio Code: https://code.visualstudio.com/
-- Install Node Js: https://nodejs.org/en/download/
+
 - Install Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+### Install Node Js
+
+Alternative 1:
+1. Download LTS version of Node Js: https://nodejs.org/en/download/
+2. Open a terminal on your download folder and run `tar -xf node-v16.17.1-linux-x64.tar.xz` (or whatever version)
+
+
+Alternative 2
+1. Install Node Version Manager by opening a terminal and running `curl -o- https://raw.githubusercontent.com/nvm-sh/v0.39.1/install.sh | bash`
+2. Trash the terminal, then open a new one, and run `nvm --version` to see if Node Version Manager actually installed.
+3. Run `nvm install 16.14.2` to install Node Js.
+4. Run `node --version` to see if Node Js installed.
+
+### Enable Yarn (Node Js required)
+
+1. Run `corepack enable`. If it's not available, run `npm i -g corepack` first.
+2. Check if it's installed with `yarn --version`
 
 ## Auto formatting (JavaScript and Solidity)
 
@@ -77,17 +95,7 @@ It may look like this:
 - On VS Code, press **Ctrl + Shift + P**, type `wsl` then click **Remote-WSL: New WSL Window** to open a Linux terminal.
 - Type `ubuntu` on Start Menu, run it, then type `mkdir FOLDER_NAME` to create a new folder, `cd FOLDER_NAME` to move into that folder, and `code .` to run VS Code from that folder.
 
-### Install Node Js on WSL
 
-1. Install Node Js by opening a terminal and running `curl -o- https://raw.githubusercontent.com/nvm-sh/v0.39.1/install.sh | bash`
-2. Trash the terminal, then open a new one, and run `nvm --version` to see if Node Version Manager actually installed.
-3. Run `nvm install 16.14.2` to install Node Js.
-4. Run `node --version` to see if Node Js installed.
-
-### Enable Yarn (Node Js required)
-
-1. Run `corepack enable`. If it's not available, run `npm i -g corepack` first.
-2. Check if it's installed with `yarn --version`
 
 ### Install Git on WSL
 
