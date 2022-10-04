@@ -17,9 +17,10 @@
 6. Create folders:
 
 - `contracts` for storing `.sol` files.
-- `scripts` to store scripts
+- `scripts` to store scripts that run contracts
 - `deploy` to store deploy scripts
 - `test` to store test scripts
+- `utils` to store utility contracts
 
 ## Interfaces
 
@@ -83,9 +84,10 @@ It may look like this:
 3. Run `nvm install 16.14.2` to install Node Js.
 4. Run `node --version` to see if Node Js installed.
 
-## Enable Yarn (Node Js required)
+### Enable Yarn (Node Js required)
 
-Run `corepack enable`. If it's not available, run `npm i -g corepack` first.
+1. Run `corepack enable`. If it's not available, run `npm i -g corepack` first.
+2. Check if it's installed with `yarn --version`
 
 ### Install Git on WSL
 
