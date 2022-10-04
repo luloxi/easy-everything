@@ -17,7 +17,7 @@
 6. Create folders:
 
 - `contracts` for storing `.sol` files.
-- `scripts` to store scripts that run contracts
+- `scripts` to store scripts that run contracts methods
 - `deploy` to store deploy scripts
 - `test` to store test scripts
 - `utils` to store utility contracts
