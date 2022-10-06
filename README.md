@@ -74,6 +74,10 @@ It may look like this:
 1. Run `corepack enable`. If it's not available, run `npm i -g corepack` first.
 2. Check if it's installed with `yarn --version`
 
+## Enable hh shorthand
+
+`npm install --global hardhat-shorthand` to use commands like `hh compile` instead of `yarn hardhat compile`
+
 ## Windows only (to get the Linux console)
 
 ### Install WSL (Windows Subsystem for Linux)
