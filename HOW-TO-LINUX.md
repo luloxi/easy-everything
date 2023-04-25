@@ -31,15 +31,6 @@ If you install it, **you can remove it completely anytime**
 3. Type and enter `code .` to run VS Code from that folder.
 4. Type and enter `cd ..` to move into the parent folder of **FOLDER_NAME**
 
-#### Set as default on VS Code
-
-1. Open a terminal on VS Code
-2. Click on the "Select Default Shell" button in the terminal toolbar
-3. Select `WSL Bash`
-4. (Optional) Optionally, you can also set the default terminal by adding the following configuration in your VS Code settings (File > Preferences > Settings):
-   `"terminal.integrated.defaultProfile.windows": "WSL",`
-5. Close that terminal and open a new one
-
 ## Virtualization
 
 Download Virtualbox, download an image/installer, add it to virtualbox.

@@ -1,11 +1,4 @@
-# Setting up the environment
-
-## VS Code with auto formatting (JavaScript and Solidity)
-
-1. Install VS Code from here: https://code.visualstudio.com/
-1. On VS Code, install the extensions **Solidity + Hardhat** and **Prettier**
-1. **Ctrl + Shift + P**, then `Preferences: Open User Settings (JSON)`
-1. Add the lines: `"editor.formatOnSave": true, "[solidity]": { "editor.defaultFormatter": "NomicFoundation.hardhat-solidity" }, "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },`
+# Setting up the environmen
 
 ## Install Node Js
 
