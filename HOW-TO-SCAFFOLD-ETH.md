@@ -22,4 +22,5 @@ yarn install
 
 ## ERR_OSSL_EVP_UNSUPPORTED
 
-[Solved here](https://stackoverflow.com/questions/70582072/npm-run-fails-with-err-ossl-evp-unsupported)
+1. Run `grep -r -e "--openssl-legacy-provider" .` and remove that line wherever it appears on the repo [(answered on Stack Overflow)](https://stackoverflow.com/questions/70582072/npm-run-fails-with-err-ossl-evp-unsupported)
+
