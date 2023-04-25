@@ -19,3 +19,7 @@ yarn cache clean
 ```bash
 yarn install
 ```
+
+## ERR_OSSL_EVP_UNSUPPORTED
+
+[Solved here](https://stackoverflow.com/questions/70582072/npm-run-fails-with-err-ossl-evp-unsupported)
