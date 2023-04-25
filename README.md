@@ -10,4 +10,5 @@ In this repo you'll find easy to follow instructions to use the tech I know
 ## App workflow
 
 - [How to use Hardhat for simplicity](./HOW-TO-HARDHAT.md)
+- [How to use scaffold-eth for simplicity](./HOW-TO-SCAFFOLD-ETH.md)
 - [Unclassified notes at WORKFLOW.md](./WORKFLOW.md)
