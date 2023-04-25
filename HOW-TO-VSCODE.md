@@ -1,3 +1,5 @@
+# VS Code
+
 ## VS Code with auto formatting (JavaScript and Solidity)
 
 1. Install VS Code from here: https://code.visualstudio.com/

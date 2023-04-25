@@ -15,21 +15,7 @@ If you install it, **you can remove it completely anytime**
 
 ### Install WSL (Windows Subsystem for Linux)
 
-1. Open start menu, type `powershell` and right-click the main result, Run as Administrator, then run `wsl --install`.
-2. Restart computer after installation completes.
-3. Set user and password for your Ubuntu installation after you restart. If it doesn't prompt automatically after restart, type `ubuntu` on Start Menu and run it.
-4. Open VS Code and install the extension **Remote Development**
-
-#### Open a WSL terminal
-
-1. Open start menu, type `ubuntu` and press ENTER
-
-#### First steps on WSL terminal
-
-1. Type and enter `mkdir FOLDER_NAME` to create a new folder
-2. Type and enter `cd FOLDER_NAME` to move into that **FOLDER_NAME**
-3. Type and enter `code .` to run VS Code from that folder.
-4. Type and enter `cd ..` to move into the parent folder of **FOLDER_NAME**
+[Information moved here](./HOW-TO-WSL.md)
 
 ## Virtualization
 
