@@ -4,11 +4,11 @@ In this repo you'll find easy to follow instructions to use the tech I know
 
 ## Setting up the environment
 
-- [Install Linux, Set Windows back as default, and Uninstall Linux](./HOW-TO-LINUX.md)
-- [VS Code settings for fast and clean development](./HOW-TO-VSCODE.md)
+- **LINUX:** [Installing, Setting Windows back as default, and Uninstalling](./HOW-TO-LINUX.md)
+- **VS CODE:** [Settings for fast and clean development](./HOW-TO-VSCODE.md)
 
 ## App workflow
 
-- [How to use Hardhat for simplicity](./HOW-TO-HARDHAT.md)
-- [How to use scaffold-eth for simplicity](./HOW-TO-SCAFFOLD-ETH.md)
+- **HARDHAT:** [How to use for simplicity](./HOW-TO-HARDHAT.md)
+- **SCAFFOLD-ETH:** [How to use for simplicity](./HOW-TO-SCAFFOLD-ETH.md)
 - [Unclassified notes at WORKFLOW.md](./WORKFLOW.md)
