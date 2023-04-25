@@ -2,18 +2,17 @@
 
 ## ERR_OSSL_EVP_UNSUPPORTED
 
-Run this command (BETA)
-```bash
-find . -type f -exec sed -i 's/--openssl-legacy-provider//g' {} +
-```
-
-Alternatively:
 1. Run 
 ```bash
 grep -r -e "--openssl-legacy-provider" .
 ``` 
-2. Remove each `--openssl-legacy-provider` you find with that command
+2. Remove each `--openssl-legacy-provider` you find with that command, and add `export NODE_OPTIONS=--openssl-legacy-provider` at the beginning of that command
 3. Run the command again to make sure you removed them all [( Stack Overflow)](https://stackoverflow.com/questions/70582072/npm-run-fails-with-err-ossl-evp-unsupported) 
+
+Don't run this command (BETA)
+```bash
+find . -type f -exec sed -i 's/--openssl-legacy-provider//g' {} +
+```
 
 ## Purge cache and reinstall node_modules
 
