@@ -1,4 +1,6 @@
-# Install, Uninstall
+# Linux
+
+## Install, Uninstall
 
 Different ways of using a Linux environment if you have a Windows PC
 
@@ -11,25 +13,25 @@ If you install it, **you can remove it completely anytime**
 4.  [Installing Linux (Hard)](#installing-linux)
 5.  [Uninstall Linux (Easy)](#uni)
 
-## Install WSL (Windows Subsystem for Linux)
+### Install WSL (Windows Subsystem for Linux)
 
 1. Open start menu, type `powershell` and right-click the main result, Run as Administrator, then run `wsl --install`.
 2. Restart computer after installation completes.
 3. Set user and password for your Ubuntu installation after you restart. If it doesn't prompt automatically after restart, type `ubuntu` on Start Menu and run it.
 4. Open VS Code and install the extension **Remote Development**
 
-### Open a WSL terminal
+#### Open a WSL terminal
 
 1. Open start menu, type `ubuntu` and press ENTER
 
-### First steps on WSL terminal
+#### First steps on WSL terminal
 
 1. Type and enter `mkdir FOLDER_NAME` to create a new folder
 2. Type and enter `cd FOLDER_NAME` to move into that **FOLDER_NAME**
 3. Type and enter `code .` to run VS Code from that folder.
 4. Type and enter `cd ..` to move into the parent folder of **FOLDER_NAME**
 
-### Set as default on VS Code
+#### Set as default on VS Code
 
 1. Open a terminal on VS Code
 2. Click on the "Select Default Shell" button in the terminal toolbar
@@ -38,11 +40,24 @@ If you install it, **you can remove it completely anytime**
    `"terminal.integrated.defaultProfile.windows": "WSL",`
 5. Close that terminal and open a new one
 
-## Booting from USB
-
 ## Virtualization
 
+Download Virtualbox, download an image/installer, add it to virtualbox.
+
+## Booting from USB
+
+1. Go to Linux Mint website and download latest stable version
+2. Burn into a USB stick
+3. Boot from USB stick (config BIOS)
+
 ## Installing Linux
+
+### Downloading and installing
+
+1. Go to Linux Mint website and download latest stable version
+2. Burn into a USB stick
+3. Boot from USB stick (config BIOS)
+4. Install auto-partitioning the disk
 
 ### Making Windows the default OS at boot
 
@@ -64,7 +79,7 @@ grub-customizer
 4. Do clicks to the up arrow until it's at the top of the list
 5. Save and exit
 
-## Uninstall Linux
+### Uninstall Linux
 
 Remove Linux from your computer and reclaim the disk space
 

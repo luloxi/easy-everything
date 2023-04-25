@@ -1,4 +1,8 @@
-# How to start a new project on hardhat
+# Hardhat
+
+ToDo: Make this file into a repo called easy-hardhat
+
+## How to start a new project on hardhat
 
 0. (optional) To add info about the project, run `yarn init` first
 

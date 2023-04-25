@@ -1,17 +1,14 @@
-### Install Git on WSL
+# Github
 
-1. Check if it's already installed with `git --version`
-2. If not, install Git following the instructions for Linux here https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+## Upload project to GitHub
 
-# Upload project to GitHub
+> **DO NOT FORGET TO CREATE A `.gitignore`** file and list there all files containing sensitive data, like `.env`. Also, list all the unnecesary files that you can download with `yarn` or `yarn hardhat compile`.
 
 -   [USE GITHUB DESKTOP BECAUSE IT'S EASIER (WINDOWS AND MAC)](https://desktop.github.com/)
 -   [USE GITHUB DESKTOP EVEN IF YOU'RE ON LINUX](https://github.com/muroko/github-desktop-linux)
 -   (This might be a bit more trickier to install, but if you're using Linux, you probably like doing so anyways)
 
-## Otherwhise...
-
-1. **DO NOT FORGET TO CREATE A `.gitignore`** file and list there all files containing sensitive data, like `.env`. Also, list all the unnecesary files that you can download with `yarn` or `yarn hardhat compile`.
+### Otherwhise...
 
 It may look like this:
 `node_modules .env artifacts cache ...`
@@ -23,3 +20,10 @@ It may look like this:
 6. Push them to GitHub with `git push -u origin main`
 
 \* Set as default with `git config --global init.defaultBranch main`
+
+## Install Git on WSL
+
+If you [installed WSL](./HOW-TO-LINUX.md#install-wsl-windows-subsystem-for-linux) and you want to use git with it
+
+1. Check if it's already installed with `git --version`
+2. If not, install Git following the instructions for Linux here https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
