@@ -7,7 +7,7 @@
 grep -r -e "--openssl-legacy-provider" .
 ``` 
 2. Remove each `--openssl-legacy-provider` you find with that command, and add `export NODE_OPTIONS=--openssl-legacy-provider` at the beginning of that command
-3. Run the command again to make sure you removed them all [( Stack Overflow)](https://stackoverflow.com/questions/70582072/npm-run-fails-with-err-ossl-evp-unsupported) 
+Sources: [(Stack Overflow 1)](https://stackoverflow.com/questions/69394632/webpack-build-failing-with-err-ossl-evp-unsupported) [(Stack Overflow 2)](https://stackoverflow.com/questions/70582072/npm-run-fails-with-err-ossl-evp-unsupported) 
 
 Don't run this command (BETA)
 ```bash
