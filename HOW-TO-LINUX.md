@@ -64,15 +64,13 @@ grub-customizer
 4. Do clicks to the up arrow until it's at the top of the list
 5. Save and exit
 
-## Remove Linux from your computer and reclaim the disk space
+## Uninstall Linux
+
+Remove Linux from your computer and reclaim the disk space
 
 **FROM THE WINDOWS ENVIRONMENT**
 
 1. [Download MiniTool Partition Wizard Free](https://www.partitionwizard.com/download-free-from-cnet.html?p=pw&e=pw-free&r=www.partitionwizard.com/) and install it
 2. Select the partitions corresponding to Linux, delete them, then resize your windows partition, and apply changes.
 
-## Installing Linux
 
-## Search for a specific line on a folder
-
-`grep -r -e "a specificline" /path/to/folder`
