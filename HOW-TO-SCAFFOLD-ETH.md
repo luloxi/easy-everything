@@ -5,7 +5,7 @@
  From your repo, run this command:
 
 ```bash
-rm -rf node_modules && rm -rf packages/hardhat/node_modules && rm -rf packages/react-app/node_modules
+rm -rf node_modules && rm -rf packages/hardhat/node_modules && rm -rf packages/react-app/node_modules && rm yarn.lock
 yarn cache clean
 yarn install
 ```
