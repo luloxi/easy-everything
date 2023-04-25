@@ -15,4 +15,4 @@ In this repo you'll find easy to follow instructions to use the tech I know
 - **HARDHAT:** [How to use for simplicity](./HOW-TO-HARDHAT.md)
 - **SCAFFOLD-ETH:** [How to solve common errors](./HOW-TO-SCAFFOLD-ETH.md)
 
-- [Unclassified notes at WORKFLOW.md](./WORKFLOW.md)
+[Unclassified notes at WORKFLOW.md](./WORKFLOW.md)
