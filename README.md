@@ -4,7 +4,7 @@ In this repo you'll find easy to follow instructions to use the tech I know
 
 ## Setting up the environment
 
-- **LINUX:** [Installing, Setting Windows back as default, and Uninstalling](./HOW-TO-LINUX.md)
+- **LINUX:** [WSL, Virtualization, Installing, and Uninstalling](./HOW-TO-LINUX.md)
 - **VS CODE:** [Settings for fast and clean development](./HOW-TO-VSCODE.md)
 
 ## App workflow

@@ -50,7 +50,7 @@ Download Virtualbox, download an image/installer, add it to virtualbox.
 3. Boot from USB stick (config BIOS)
 4. Install auto-partitioning the disk
 
-### Making Windows the default OS at boot
+#### Making Windows the default OS at boot
 
 To run Windows by default when you first start your computer
 

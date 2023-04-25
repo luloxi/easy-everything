@@ -1,4 +1,4 @@
-# Debugging  
+# Scaffold-ETH  
 
 ## Cleaning node_modules and cache
 
