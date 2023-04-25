@@ -7,11 +7,12 @@
 grep -r -e "--openssl-legacy-provider" .
 ``` 
 2. Remove each `--openssl-legacy-provider` you find with that command, and add `export NODE_OPTIONS=--openssl-legacy-provider` at the beginning of that command
+
 Sources: [(Stack Overflow 1)](https://stackoverflow.com/questions/69394632/webpack-build-failing-with-err-ossl-evp-unsupported) [(Stack Overflow 2)](https://stackoverflow.com/questions/70582072/npm-run-fails-with-err-ossl-evp-unsupported) 
 
-Don't run this command (BETA)
+**Attempt of solving it with a single command (Don't run this command)**
 ```bash
-find . -type f -exec sed -i 's/--openssl-legacy-provider//g' {} +
+find . -type f -exec sed -i 's/--openssl-legacy-provider //g' {} +
 ```
 
 ## Purge cache and reinstall node_modules
