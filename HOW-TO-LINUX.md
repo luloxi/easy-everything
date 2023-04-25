@@ -1,7 +1,5 @@
 # Linux
 
-## Install, Uninstall
-
 Different ways of using a Linux environment if you have a Windows PC
 
 If you install it, **you can remove it completely anytime**
@@ -13,7 +11,11 @@ If you install it, **you can remove it completely anytime**
 4.  [Installing Linux (Hard)](#installing-linux)
 5.  [Uninstall Linux (Easy)](#uni)
 
-### Install WSL (Windows Subsystem for Linux)
+**Linux tricks to make workflow easier**
+
+- [See location of specific string on all files of a folder](#see-location-of-specific-string-on-all-files-of-a-folder)
+
+## Install WSL (Windows Subsystem for Linux)
 
 [Information moved here](./HOW-TO-WSL.md)
 
@@ -65,4 +67,8 @@ Remove Linux from your computer and reclaim the disk space
 1. [Download MiniTool Partition Wizard Free](https://www.partitionwizard.com/download-free-from-cnet.html?p=pw&e=pw-free&r=www.partitionwizard.com/) and install it
 2. Select the partitions corresponding to Linux, delete them, then resize your windows partition, and apply changes.
 
+## Linux tricks
 
+### See location of specific string on all files of a folder
+
+`grep -r -e "a specific string" /path/to/folder`

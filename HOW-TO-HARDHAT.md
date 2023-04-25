@@ -38,3 +38,7 @@ ToDo: Make this file into a repo called easy-hardhat
 3. To use an interface to interact with a contract that's already deployed, see `interface.js` for further instructions
 
 4. After creating the script, run it with `takeAction.js` by running `yarn hardhat scripts/takeAction.js`
+
+## Enable hh shorthand
+
+`npm install --global hardhat-shorthand` to use commands like `hh compile` instead of `yarn hardhat compile`
