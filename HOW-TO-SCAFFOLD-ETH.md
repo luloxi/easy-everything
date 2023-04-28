@@ -1,8 +1,19 @@
 # Scaffold-ETH  
 
-When first git cloning scaffold-eth main repo:
+## Purge cache and reinstall node_modules
 
-## ERR_OSSL_EVP_UNSUPPORTED
+ From your repo, run this command:
+
+```bash
+rm -rf node_modules && rm -rf packages/hardhat/node_modules && rm -rf packages/react-app/node_modules 
+rm yarn.lock && rm -rf packages/hardhat/artifacts && rm -rf packages/hardhat/cache
+yarn cache clean
+yarn install
+```
+
+## When first git cloning scaffold-eth main repo:
+
+### ERR_OSSL_EVP_UNSUPPORTED
 
 1. Run 
 ```bash
@@ -18,12 +29,3 @@ Sources: [(Stack Overflow 1)](https://stackoverflow.com/questions/69394632/webpa
 find . -type f -exec sed -i 's/--openssl-legacy-provider //g' {} +
 ```
 
-## Purge cache and reinstall node_modules
-
- From your repo, run this command:
-
-```bash
-rm -rf node_modules && rm -rf packages/hardhat/node_modules && rm -rf packages/react-app/node_modules && rm yarn.lock
-yarn cache clean
-yarn install
-```
