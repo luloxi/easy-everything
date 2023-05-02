@@ -58,4 +58,4 @@ If you [installed WSL](./HOW-TO-LINUX.md#install-wsl-windows-subsystem-for-linux
 
 ## Add GPG keys 
 
-Link: https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
+**Link**: https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
