@@ -29,3 +29,19 @@ Sources: [(Stack Overflow 1)](https://stackoverflow.com/questions/69394632/webpa
 find . -type f -exec sed -i 's/--openssl-legacy-provider //g' {} +
 ```
 
+## Deploying to production
+
+## Liberating a specific port (careful!)
+
+1. Search what apps are using a specific port 
+(In this case, the port number is 3000)
+```bash
+sudo lsof -i :3000 
+```
+2. Take note of the PID (Process ID), and kill it
+(In this case, the PID is 798035)
+```bash
+kill 798035
+```
+
+
