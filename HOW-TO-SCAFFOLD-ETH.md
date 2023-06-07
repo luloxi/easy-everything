@@ -20,7 +20,7 @@ yarn install
 grep -r -e "--openssl-legacy-provider" .
 ``` 
 2. Remove each `--openssl-legacy-provider` you find with that command, try to run `yarn start` without that argument
-3. If it doesn't run either, add `export NODE_OPTIONS=--openssl-legacy-provider` at the beginning of the commands you removed the modifier before
+3. If it doesn't run either, run `export NODE_OPTIONS=--openssl-legacy-provider`, and then run again the command you were trying to run.
 
 Sources: [(Stack Overflow 1)](https://stackoverflow.com/questions/69394632/webpack-build-failing-with-err-ossl-evp-unsupported) [(Stack Overflow 2)](https://stackoverflow.com/questions/70582072/npm-run-fails-with-err-ossl-evp-unsupported) 
 
@@ -28,4 +28,20 @@ Sources: [(Stack Overflow 1)](https://stackoverflow.com/questions/69394632/webpa
 ```bash
 find . -type f -exec sed -i 's/--openssl-legacy-provider //g' {} +
 ```
+
+## Deploying to production
+
+## Liberating a specific port (careful!)
+
+1. Search what apps are using a specific port 
+(In this case, the port number is 3000)
+```bash
+sudo lsof -i :3000 
+```
+2. Take note of the PID (Process ID), and kill it
+(In this case, the PID is 798035)
+```bash
+kill 798035
+```
+
 
