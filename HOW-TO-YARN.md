@@ -20,7 +20,7 @@ sudo apt-get install -y nodejs
 
 1. Install Node Version Manager by opening a terminal and running `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
 2. **Close the terminal**, then open a new one, and run `nvm --version` to see if Node Version Manager actually installed.
-3. Run `nvm install 16.14.2` to install Node Js.
+3. Run `nvm install 18.16.0` to install Node Js.
 4. Run `node --version` to see if Node Js installed.
 
 ## Debugging
