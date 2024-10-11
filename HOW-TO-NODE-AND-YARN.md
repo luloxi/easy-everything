@@ -30,28 +30,10 @@ nvm uninstall <version>   # Example: nvm uninstall 16
 
 To install the latest LTS version of Node.js, the best approach is to use Node Version Manager (NVM), which allows you to easily manage multiple Node.js versions.
 
-Install NVM (if not already installed):
-
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
-```
-
-Then, load NVM into your current terminal session:
-
-```bash
-source ~/.bashrc   # For bash users
-source ~/.zshrc    # For zsh users
-```
-
-Install the latest LTS version of Node.js:
-
-```bash
+source ~/.bashrc    # Or ~/.zshrc for zsh users
 nvm install --lts
-``` 
-
-Set the latest LTS as the default version:
-
-```bash
 nvm use --lts
 nvm alias default lts/*    # Makes the LTS version the default
 ```
@@ -67,25 +49,8 @@ npm -v     # Should display the version of npm that comes with Node.js
 
 Now that Node.js is installed, let's install Yarn, a popular package manager for Node.js.
 
-Add Yarn's APT repository (for Debian/Ubuntu-based systems):
-
 ```bash
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt update
-```
-
-Install Yarn:
-
-```bash
-sudo apt install yarn
-```
-
-On RHEL/CentOS/Fedora systems:
-
-```bash
-curl --silent --location https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo
-sudo yum install yarn
+sudo npm install --global yarn
 ```
 
 Verify Yarn installation:
@@ -94,7 +59,8 @@ Verify Yarn installation:
 yarn -v    # Should display the installed version of Yarn
 ```
 
-Summary of Commands:
+## Summary of Commands:
+
 ```bash
 # Uninstall Node.js
 sudo apt remove nodejs npm        # Debian/Ubuntu (adjust for other distros)
@@ -111,10 +77,8 @@ nvm use --lts
 nvm alias default lts/*
 
 # Install Yarn
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt update
-sudo apt install yarn
+sudo npm install --global yarn
+
 ```
 
 Now, Node.js LTS and Yarn should be installed and ready to use.

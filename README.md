@@ -4,9 +4,9 @@ In this repo you'll find easy to follow instructions to use the tech I know
 
 ## Setting up the environment
 
-- **WSL:** [How to install and configure environment](./HOW-TO-WSL.md)
-- **GITHUB:** [How to upload a project](./HOW-TO-GITHUB.md)
-- **YARN:** [How to install and enable](./HOW-TO-NODE-AND-YARN.md)
+- **WSL:** [How to install and configure a Linux environment on Windows](./HOW-TO-WSL.md)
+- **GITHUB:** [How to configure git, github, and upload a project](./HOW-TO-GITHUB.md)
+- **YARN:** [How to install and enable Node LTS and Yarn](./HOW-TO-NODE-AND-YARN.md)
 
 ## Using apps for development and production
 
