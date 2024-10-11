@@ -2,6 +2,8 @@
 
 ## Installing WSL
 
+0. Enable virtualization in your computer's BIOS settings (check the internet on how to do it on your specific computer model).
+
 1. Open start menu, type `powershell` and right-click the main result, Run as Administrator, then run `wsl --install`.
 2. Restart computer after installation completes.
 3. Set user and password for your Ubuntu installation after you restart. If it doesn't prompt automatically after restart, type `ubuntu` on Start Menu and run it.
